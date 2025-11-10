@@ -78,15 +78,17 @@ body {
     border-radius: 12px;
     color: #FFFFFF;
     transition: all 0.3s ease;
+    text-align: center;
 }
 
 ::placeholder {
     color: #CCCCCC;
+    text-align: center;
 }
 
 #username:hover, #password:hover {
     box-shadow: 0 0 10px #FF6EC7;
-    cursor: pointer;
+    cursor: text;
 }
 
 #username:focus, #password:focus {
@@ -114,13 +116,14 @@ button {
     transition: all 0.3s ease;
     margin-top: 10px;
     max-width: 200px;
+    width: 80%;
     animation: glow 2s infinite alternate;
 }
 
 button:hover {
     transform: scale(1.05);
     box-shadow: 0 0 15px #6EFFA1;
-    cursor: text;
+    cursor: pointer;
 }
 
 button:focus {
@@ -153,8 +156,7 @@ a:hover {
     text-shadow: 0 0 8px #FF6EC7;
 }
 
-
-/* queries */
+/* querie */
 @media (max-width: 768px) {
     .container {
         padding: 15px;
