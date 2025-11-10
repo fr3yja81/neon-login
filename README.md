@@ -35,3 +35,12 @@ See the form in action here:
 - **Login validation via JavaScript**:
   - Alerts if the username or password is incorrect.
   - Displays success message if login is correct (`admin` / `1234`).
+
+## 🚀 How to Clone the Project
+
+Clone this repository to your local machine, navigate into the project folder, and open it in VS Code:
+
+```bash
+git clone https://github.com/fr3yja81/neon-login.git
+cd neon-login
+code .
