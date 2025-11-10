@@ -8,11 +8,11 @@ Neon Login UI
 
 A **minimalist and elegant login form** with animations and **responsive design**, adaptable to any screen size (mobile, tablet, or desktop). This project includes **client-side JavaScript functionality** to handle login validation and provide dynamic feedback to users.
 
-## 🌐 Live Demo
+## Live Demo
 See the form in action here:  
 [https://fr3yja81.github.io/neon-login/index.html](https://fr3yja81.github.io/neon-login/index.html)
 
-## 🛠 Technologies Used
+## Technologies Used
 - **HTML5**  
 - **CSS3**
   - Flexbox
@@ -26,7 +26,7 @@ See the form in action here:
   - Displays dynamic alert messages
 - Font: [Poppins](https://fonts.google.com/specimen/Poppins)
 
-## ✨ Features
+## Features
 - Centered and minimalist design with vibrant colors.
 - Interactive inputs and buttons with `hover` and `focus` effects.
 - Container adapts to all screen sizes.
@@ -36,7 +36,7 @@ See the form in action here:
   - Alerts if the username or password is incorrect.
   - Displays success message if login is correct (`admin` / `1234`).
 
-## 🚀 How to Clone the Project
+## How to Clone the Project
 
 Clone this repository to your local machine, navigate into the project folder, and open it in VS Code:
 
