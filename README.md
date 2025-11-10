@@ -4,9 +4,9 @@ Neon Login UI
 # Responsive Login Form
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/fr3yja81/your-repo?style=social)](https://github.com/fr3yja81/your-repo/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/fr3yja81/neon-login?style=social)](https://github.com/fr3yja81/neon-login/stargazers)
 
-A **minimalist and elegant login form** with animations and **responsive design**, adaptable to any screen size (mobile, tablet, or desktop). This project also includes **client-side JavaScript functionality** to handle login validation and provide dynamic feedback to users.
+A **minimalist and elegant login form** with animations and **responsive design**, adaptable to any screen size (mobile, tablet, or desktop). This project includes **client-side JavaScript functionality** to handle login validation and provide dynamic feedback to users.
 
 ## 🌐 Live Demo
 See the form in action here:  
@@ -21,6 +21,8 @@ See the form in action here:
 - **JavaScript**
   - Handles form submission
   - Validates username and password
+  - Prevents duplicate alerts
+  - Clears inputs on successful login
   - Displays dynamic alert messages
 - Font: [Poppins](https://fonts.google.com/specimen/Poppins)
 
@@ -33,4 +35,3 @@ See the form in action here:
 - **Login validation via JavaScript**:
   - Alerts if the username or password is incorrect.
   - Displays success message if login is correct (`admin` / `1234`).
-
