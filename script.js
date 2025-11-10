@@ -3,10 +3,14 @@ const usernameInput = document.getElementById("username");
 const passwordInput = document.getElementById("password");
 
 function showAlert(message) {
+
+    const existingAlert = loginForm.querySelector(".alert");
+    if (existingAlert) existingAlert.remove();
+
     let alertDiv = document.createElement("div");
     alertDiv.textContent = message;
-
     alertDiv.classList.add("alert");
+    alertDiv.setAttribute("aria-live", "polite");
 
     loginForm.appendChild(alertDiv);
 
@@ -22,8 +26,11 @@ loginForm.addEventListener("submit", function(e) {
     const password = passwordInput.value.trim();
 
     if(username === "admin" && password === "1234") {
-        showAlert("¡Login successful!");
+        showAlert("Login successful!");
+
+        usernameInput.value = "";
+        passwordInput.value = "";
     } else {
-        showAlert("Username or password is incorrect")
+        showAlert("Username or password is incorrect");
     }
 });
