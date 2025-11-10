@@ -33,6 +33,4 @@ See the form in action here:
 - **Login validation via JavaScript**:
   - Alerts if the username or password is incorrect.
   - Displays success message if login is correct (`admin` / `1234`).
-- **Login validation via JavaScript**:
-  - Alerts if the username or password is incorrect.
-  - Displays success message if login is correct (`admin` / `1234`).
+
