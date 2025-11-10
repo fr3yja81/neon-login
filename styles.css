@@ -120,7 +120,7 @@ button {
 button:hover {
     transform: scale(1.05);
     box-shadow: 0 0 15px #6EFFA1;
-    cursor: pointer;
+    cursor: text;
 }
 
 button:focus {
@@ -155,7 +155,7 @@ a:hover {
 
 
 /* queries */
-@media (max-width: 50px) {
+@media (max-width: 768px) {
     .container {
         padding: 15px;
     }
